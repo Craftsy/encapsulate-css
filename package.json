@@ -1,0 +1,32 @@
+{
+  "name": "encapsulate-css",
+  "version": "1.0.0",
+  "description": "utility to add a class to all css selectors",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --reporter spec",
+    "build": "babel -d dist index.js"
+  },
+  "keywords": [
+    "encapsulate",
+    "css",
+    "encapsulation",
+    "namespace"
+  ],
+  "author": "Craftsy and Sympoz Inc.",
+  "contributors": [
+    "Don Abrams <don.abrams@craftsy.com>"
+  ],
+  "license": "MIT",
+  "repository": "craftsy/encapsulate",
+  "dependencies": {
+    "css": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel": "^6.3.13",
+    "babel-cli": "^6.3.17",
+    "babel-preset-es2015": "^6.3.13",
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  }
+}
