@@ -1,6 +1,6 @@
 {
   "name": "encapsulate-css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "utility to add a class to all css selectors",
   "main": "dist/index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "Don Abrams <don.abrams@craftsy.com>"
   ],
   "license": "MIT",
-  "repository": "craftsy/encapsulate",
+  "repository": "https://github.com/Craftsy/encapsulate-css",
   "dependencies": {
     "css": "^2.2.1"
   },
